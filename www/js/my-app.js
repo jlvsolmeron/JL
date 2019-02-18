@@ -48,6 +48,10 @@ var app = new Framework7({
         url: 'event.html',
       },
       {
+        path: '/about/',
+        url: 'about.html',
+      },
+      {
         path: '/more-details/',
         url: 'more-details.html',
       },
