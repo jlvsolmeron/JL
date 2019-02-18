@@ -1,0 +1,147 @@
+
+
+.statusbar-overlay {
+    background: #000000;
+}
+.background{
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 150%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: -25vw;
+}
+.event-title-img {
+    display: block;
+    width: 60%;
+    height: 40%;
+    margin-left: 20%;
+}
+.detail-title-img {
+    display: block;
+    width: 60%;
+    height: 40%;
+    margin-left: 20%;
+}
+.text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top: 12vh;
+}
+.details{
+	text-align: center;
+	color: #ffffff;
+}
+.venue-list-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+ }
+
+.home-nav-back {
+    font-size: 2vh;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.home-list-item {
+    position: relative;
+    width: 100%;
+    height: 20vh;
+}
+
+.home-list-img {
+    width: 100%;
+    height: 20vh;
+    object-fit: cover;
+}
+
+
+.home-list-text {
+    color: white;
+    font-size: 20px;
+    letter-spacing: 5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: bold;
+}
+.item-media img {
+    border-radius: 50%;
+    height: 50px;
+    object-fit: cover;
+
+}
+.md .color-theme-black .timeline-item-date, .md .color-theme-black .timeline-year-title, .md .color-theme-black .timeline-month-title {
+    background: none;
+}
+
+.md .timeline {
+    margin: 0;
+}
+
+.ios .timeline {
+    margin: 0;
+}
+
+.md .timeline-item-title {
+    font-weight: bold;
+}
+
+.md .block-title {
+    margin-top: 3vh;
+    margin-left: 0;
+    margin-bottom: 3vh;
+    font-size: 25px;
+    line-height: 2;
+}
+
+.md .block, .ios .block {
+    padding: 0;
+}
+
+.ios .block-title {
+    text-transform: unset;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 2vh;
+    font-size: 25px;
+    line-height: 2;
+}
+
+.ios .list .item-text {
+    color: black;
+}
+
+.demo-swiper {
+    margin-bottom: 3vh;
+}
+
+.md .list .item-content, .ios .list .item-content {
+    padding-left: 0;
+}
+.back-button {
+      height: 30px;
+      width: auto;
+  }
+.item-media-menu img{
+    border-radius: 60%;
+    height: 60px;
+    object-fit: cover;
+}
+.item-title{
+    font-weight: bold;
+}
